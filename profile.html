@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профіль користувача - Language Learner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  id="page-profile">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Language</span> Learner</h1>
+            </div>
+            <nav>
+    <ul>
+        <li><a href="index.html">Про додаток</a></li>
+        <li><a href="app.html">Додаток</a></li>
+        
+        
+        <span id="nav-loggedIn" style="display:none;">
+            <li><a href="profile.html">Профіль</a></li>
+            <li><a href="#" id="logout-link">Вихід</a></li>
+        </span>
+
+        <span id="nav-loggedOut" style="display:none;">
+            <li><a href="login.html">Вхід</a></li>
+            <li><a href="register.html">Реєстрація</a></li>
+        </span>
+    </ul>
+</nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Профіль користувача</h1>
+        
+        <!-- Image placeholder for profile photo removed -->
+
+        <table class="profile-table">
+           
+            <tr>
+                <td>Ім’я:</td>
+                <td>[Ім'я користувача]</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>[user@example.com]</td>
+            </tr>
+            <tr>
+                <td>Стать:</td>
+                <td>[Стать]</td>
+            </tr>
+            <tr>
+                <td>Дата народження:</td>
+                <td>[РРРР-ММ-ДД]</td>
+            </tr>
+            <tr>
+                <td>Дата реєстрації:</td>
+                <td>[РРРР-ММ-ДД]</td>
+            </tr>
+            <tr>
+                <td>Вивчено слів:</td>
+                <td>[Кількість]</td>
+            </tr>
+            <tr>
+                <td>Останній вхід:</td>
+                <td>[Дата і час]</td>
+            </tr>
+           
+        </table>
+        
+    </main>
+
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+<footer>
+        <p>Language Learner © 2023</p>
+    </footer>
+</html>
