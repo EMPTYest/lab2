@@ -18,10 +18,10 @@ export class ProfileView {
             return;
         }
 
-        // Очищуємо попередні дані, якщо вони були
+
         this.profileTableBody.innerHTML = '';
 
-        // Додаємо рядки з даними
+
         this.profileTableBody.innerHTML = `
             <tr>
                 <td>Ім’я:</td>
